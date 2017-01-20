@@ -7,7 +7,7 @@ declare var require;
 var child_process = require("child_process");
 var spawn = child_process.spawn;
 var readline = require("readline");
-var chalk = require("chalk");
+var chalk = require("chalk"); 
 var yargs = require("yargs");
 
 var argv = yargs
